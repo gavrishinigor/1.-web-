@@ -2,78 +2,74 @@
   */
 
 body {
-font-family: 'Manrope', sans-serif;
-/* margin: 0 auto; */
-Width: 1400px;
-Height: 7211px;
-background: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    Width: 1400px;
+    Height: 7211px;
+    background: #FFFFFF;
 }
 
 .group_10 {
-width: 1151.35px;
-height: 25.18px;
-margin-top: 32.82px;
-margin-left: 124.65px;
-margin-bottom: 70px;
+    width: 1151.35px;
+    height: 25.18px;
+    margin-top: 32.82px;
+    margin-left: 124.65px;
+    margin-bottom: 70px;
 }
 
 .group_11 {
-width: 1150px;
-height: 650px;
-margin-left: 125px ;
-margin-bottom: 150px;
+    width: 1150px;
+    height: 650px;
+    margin-left: 125px ;
+    margin-bottom: 150px;
 }
 
-.text_group_11{
-width: 956px;
-height: 120px;
-margin-bottom: 30px;
+.group_11 h1{
+    width: 956px;
+    height: 120px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
 }
-.text_group_11 h1{
-font-size: 60px;
-font-weight: 400;
-line-height: 60px;
-letter-spacing: -0.03em;
-}
+
 .image_group_11 {
-width: 1150px;
-height: 500px;
-background-image: url('../resourses/group_11/Rectangle 1.jpg');
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resourses/group_11/Rectangle 1.jpg');
 }
 
-.p_image_group_11{
-width: 430px;
-height: 81px;
-margin-left: 40px;
-padding-top: 379px;
-}
 .p_image_group_11 p {
-color: #FFFFFF;
-font-size: 20px;
-line-height: 27px;
-letter-spacing: -0.03em;
+    width: 430px;
+    height: 81px;
+    margin-left: 40px;
+    padding-top: 379px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
 }
 
-.group_12{
-width: 1051px;
-height: 518px;
-margin-left: 125px;
-margin-bottom: 150px;
+    .group_12{
+    width: 1051px;
+    height: 518px;
+    margin-left: 125px;
+    margin-bottom: 150px;
 }
 
-.about_us {
-width: 51px;
-height: 25px;
-font-size: 18px;
-line-height: 24.59px;
-letter-spacing: -0.03em;
-margin-bottom: 30px;
+    .about_us {
+    width: 51px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
 }
 
-.text_h2 {
-width: 1048px;
-height: 366px;
-margin-bottom: 30px;
+    .text_h2 {
+    width: 1048px;
+    height: 366px;
+    margin-bottom: 30px;
 
 }
 
