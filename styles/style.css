@@ -39,7 +39,7 @@ body {
     background-image: url('../resourses/group_11/Rectangle 1.jpg');
 }
 
-.p_image_group_11 p {
+.group_11 p {
     width: 430px;
     height: 81px;
     margin-left: 40px;
@@ -50,14 +50,14 @@ body {
     letter-spacing: -0.03em;
 }
 
-    .group_12{
+.group_12{
     width: 1051px;
     height: 518px;
     margin-left: 125px;
     margin-bottom: 150px;
 }
 
-    .about_us {
+h2 {
     width: 51px;
     height: 25px;
     font-size: 18px;
@@ -66,18 +66,14 @@ body {
     margin-bottom: 30px;
 }
 
-    .text_h2 {
+.group_12 p {
     width: 1048px;
     height: 366px;
     margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
 
-}
-
-.text_h2 h2 {
-font-size: 45px;
-line-height: 61px;
-/* margin-top: 55px; */
-letter-spacing: -0.03em;
 }
 
 .btn_1 {
@@ -89,7 +85,6 @@ letter-spacing: -0.03em;
     line-height: 27.32px;
     background-color: #AD1818;
     border-radius: 5px;
-    padding: 0px;
 }
 
 .group_13 {
@@ -98,12 +93,12 @@ letter-spacing: -0.03em;
     margin-left: 125px;
 }
 
-.projects {
+.group_13 h2 {
     width: 79px;
     height: 25px;
     font-size: 18px;
     line-height: 24.59px;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
 
@@ -209,27 +204,26 @@ margin-bottom: 90px;
 .group_9 {
     width: 1150px;
     height: 153px;
-    font-size: 30px;
-    line-height: 40.98px;
-}
-
-.a_group_9 {
-    width: 1150px;
-    height: 153px;
     display: block;
-    font-size: 30px;
-    line-height: 40.98px;
     text-align: center;
-    color: #AD1818;
-    text-decoration: none;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color:#AD1818;
-    background-color: #FFFFFF; 
     border-radius: 5px;
+    padding-top: 56px; 
 }
 
-.a_group_9:hover {
- background-color: #AD1818; 
- color:#FFFFFF;  
+.group_9 h3 a {
+    width: 1150px;
+    height: 41px; 
+    text-decoration: none;
+    color: #AD1818; 
+    background-color: #FFFFFF;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.group_9 h3 a:hover {
+    color: #FFFFFF;
+    background-color: #AD1818;
 }
