@@ -201,7 +201,7 @@ margin-bottom: 90px;
     color: #AD1818;
 }
 
-.group_9 {
+.group_9 a {
     width: 1150px;
     height: 153px;
     display: block;
@@ -210,12 +210,7 @@ margin-bottom: 90px;
     border-style: solid;
     border-color:#AD1818;
     border-radius: 5px;
-    padding-top: 56px; 
-}
-
-.group_9 h3 a {
-    width: 1150px;
-    height: 41px; 
+    padding-top: 56px;
     text-decoration: none;
     color: #AD1818; 
     background-color: #FFFFFF;
@@ -223,7 +218,7 @@ margin-bottom: 90px;
     line-height: 41px;
 }
 
-.group_9 h3 a:hover {
+.group_9 a:hover {
     color: #FFFFFF;
     background-color: #AD1818;
 }
