@@ -57,7 +57,7 @@ body {
     margin-bottom: 150px;
 }
 
-h2 {
+.group_12 h2 {
     width: 51px;
     height: 25px;
     font-size: 18px;
@@ -102,30 +102,30 @@ h2 {
     margin-bottom: 30px;
 }
 
-.group_6 {
+.group_contener {
 width: 1150px;
 height: 548px;
 margin-bottom: 90px;
 }
 
-.group_6 img {
+.group_img {
     width: 1150;
     height: 450px;
     margin-bottom: 15px;
 
 }
 
-.group_6 h3 {
-    width: 501px;
+.group_h3 {
+    width: 551px;/* оригинал 501px!! */
     height: 41px;
     font-weight: 400;
     font-size: 30px;
-    line-height: 40.98px;
+    line-height: 41px;
     letter-spacing: -0.03em;
     margin-bottom: 15px;
 }
 
-.group_6 p {
+.group_p {
     width: 127px;
     height: 27px;
     font-weight: 400;
@@ -135,87 +135,25 @@ margin-bottom: 90px;
     color: #AD1818;
 }
 
-.group_5 {
+.group_9 {
     width: 1150px;
-    height: 548px;
-    margin-bottom: 90px;
-    }
-
-.group_5 img {
-    width: 1150;
-    height: 450px;
-    margin-bottom: 15px;
-
-}
-
-.group_5 h3 {
-    width: 520px;
-    height: 41px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40.98px;
-    letter-spacing: -0.03em;
-    margin-bottom: 15px;
-}
-
-.group_5 p {
-    width: 127px;
-    height: 27px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
-}
-
-.group_7 {
-    width: 1150px;
-    height: 548px;
-    margin-bottom: 90px;
-    }
-
-.group_7 img {
-    width: 1150;
-    height: 450px;
-    margin-bottom: 15px;
-
-}
-
-.group_7 h3 {
-    width: 542px;
-    height: 41px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40.98px;
-    letter-spacing: -0.03em;
-    margin-bottom: 15px;
-}
-
-.group_7 p {
-    width: 127px;
-    height: 27px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
+    height: 153px;
 }
 
 .group_9 a {
+    box-sizing: border-box;
     width: 1150px;
     height: 153px;
     display: block;
     text-align: center;
-    border: 1px;
-    border-style: solid;
-    border-color:#AD1818;
+    border: 1px solid #AD1818;  
     border-radius: 5px;
-    padding-top: 56px;
     text-decoration: none;
     color: #AD1818; 
     background-color: #FFFFFF;
     font-size: 30px;
     line-height: 41px;
+    padding-top: 56px;
 }
 
 .group_9 a:hover {
