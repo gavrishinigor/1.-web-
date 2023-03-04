@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    Width: 100%;
+    Width: 1400px;
     Height: 7211px;
     background: #FFFFFF;
 }
@@ -12,9 +12,36 @@ body {
     width: 1151.35px;
     height: 25.18px;
     margin-top: 32.82px;
-    margin-left: 124.65px;
+    margin-left: 125px;
     margin-bottom: 70px;
+    display: flex;
+    
 }
+
+.group_10_img {
+    width: 127px;
+    height: 22px;
+    margin-right: 558.46px;
+}
+
+.group_10_a {
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #121212;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 35.3px;
+    letter-spacing: -0.03em;
+}
+
+.group_10_a:nth-last-child(1) {
+    margin-right: 0px;
+}
+
 
 .group_11 {
     width: 1150px;
@@ -139,33 +166,29 @@ body {
 .group_9 {
     width: 1150px;
     height: 153px;
-}
-
-.group_9 a {
-    width: 1150px;
-    height: 153px;
+    padding-top: 56px;
+    cursor: pointer;
+    color: #AD1818;
+    font-size: 30px;
+    line-height: 41px;
+    text-decoration: none;
+    background-color: #FFFFFF;
     display: block;
     text-align: center;
     border: 1px solid #AD1818;  
     border-radius: 5px;
-    text-decoration: none;
-    color: #AD1818; 
-    background-color: #FFFFFF;
-    font-size: 30px;
-    line-height: 41px;
-    padding-top: 56px;
 }
 
-.group_9 a:hover {
-    color: #FFFFFF;
+.group_9:hover {
     background-color: #AD1818;
+    color: #FFFFFF;
 }
 
 .group_14 {
-width: 1400px;
-height: 1844px;
-background-color: #121212;
-padding-top: 151px
+    width: 1400px;
+    height: 1844px;
+    background-color: #121212;
+    padding-top: 151px
 ;
 }
 
@@ -197,4 +220,28 @@ padding-top: 151px
     height: 41px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+.group_15 {
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resourses/group_15/Rectangle\ 10.png);
+    padding-top: 575px;
+    margin-bottom: 186px;
+}
+
+.group_15_img {
+    
+}
+
+.group_15 p {
+    width: 443px;
+    height: 82px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    margin-left: 125px;
+    /* margin-top: 575px; */
 }
