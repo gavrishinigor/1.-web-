@@ -229,7 +229,7 @@ body {
     height: 717px;
     background-image: url(../resourses/group_15/Rectangle\ 10.png);
     padding-top: 575px;
-    margin-bottom: 186px;
+    margin-bottom: 150px;
 }
 
 .group_15_img {
@@ -245,5 +245,50 @@ body {
     line-height: 41px;
     letter-spacing: -0.03em;
     margin-left: 125px;
-    /* margin-top: 575px; */
+    
+}
+
+.phone_img {
+    width: 24px;
+    height: 24px;
+    margin-left: 120px;
+    margin-bottom: 12px;
+}
+
+.group_16 {
+    width: 475px;
+    height: 217px;
+    margin-left: 125px;
+    margin-bottom: 150px;
+    
+}
+
+.group_16 h4 {
+    margin-bottom: 32px;
+}
+
+.group_16_p {
+    width: 472px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+.group_16_mail {
+    width: 412px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    
+}
+
+.group_17 {
+    width: 1400px;
+    height: 229px;
+    background-color: #121212;
 }
