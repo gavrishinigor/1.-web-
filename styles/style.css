@@ -5,7 +5,7 @@ body {
     font-family: 'Manrope', sans-serif;
     Width: 1400px;
     Height: 7211px;
-    margin-left: 20px;
+    margin: 0 auto;
     background: #FFFFFF;
 }
 
@@ -113,6 +113,7 @@ body {
     line-height: 27.32px;
     background-color: #AD1818;
     border-radius: 5px;
+    border: 0;
 }
 
 .group_13 {
