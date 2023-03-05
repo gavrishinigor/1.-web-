@@ -193,6 +193,10 @@ body {
     padding-top: 151px;
 }
 
+.btn_1:hover {
+    background-color: #fff;
+}
+
 .group_14 h3 {
     width: 66px;
     height: 25px;
