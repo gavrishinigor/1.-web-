@@ -5,14 +5,15 @@ body {
     font-family: 'Manrope', sans-serif;
     Width: 1400px;
     Height: 7211px;
+    box-sizing: border-box;
     margin: 0 auto;
     background: #FFFFFF;
 }
 
 .group_10 {
-    width: 1151.35px;
-    height: 25.18px;
-    margin-top: 32.82px;
+    width: 1151px;
+    height: 25px;
+    margin-top: 33px;
     margin-left: 125px;
     margin-bottom: 70px;
     display: flex;
@@ -31,7 +32,6 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: #121212;
-    display: block;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -47,6 +47,7 @@ body {
 .group_11 {
     width: 1150px;
     height: 650px;
+    position: relative;
     margin-left: 125px ;
     margin-bottom: 150px;
 }
@@ -70,8 +71,9 @@ body {
 .group_11 p {
     width: 430px;
     height: 81px;
-    margin-left: 40px;
-    padding-top: 379px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 27px;
@@ -88,8 +90,9 @@ body {
 .group_12 h2 {
     width: 51px;
     height: 25px;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 25px;
     letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
@@ -97,10 +100,11 @@ body {
 .group_12 p {
     width: 1048px;
     height: 366px;
-    margin-bottom: 30px;
+    font-weight: 400;
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
+    margin-bottom: 30px;
 
 }
 
@@ -113,7 +117,7 @@ body {
     line-height: 27.32px;
     background-color: #AD1818;
     border-radius: 5px;
-    border: 0;
+    border: none;
 }
 
 .group_13 {
@@ -126,8 +130,9 @@ body {
 .group_13 h2 {
     width: 79px;
     height: 25px;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 25px;
     letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
@@ -139,13 +144,13 @@ body {
 }
 
 .group_contener_img {
-    width: 1150;
+    width: 1150px;
     height: 450px;
     margin-bottom: 15px;
 
 }
 
-.group_contener_h3 {
+.group_contener h3 {
     width: 542px;
     height: 41px;
     font-weight: 400;
@@ -155,18 +160,20 @@ body {
     margin-bottom: 15px;
 }
 
-.group_contener_p {
+.group_contener a {
     width: 127px;
     height: 27px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
+    text-decoration: none;
+    cursor: pointer;
     color: #AD1818;
 }
 
 .group_9 {
-    width: 1150px;
+    width: 100%;
     height: 153px;
     padding-top: 56px;
     cursor: pointer;
@@ -189,14 +196,19 @@ body {
 .group_14 {
     width: 1400px;
     height: 1844px;
+    display: block;
     background-color: #121212;
     padding-top: 151px;
 }
 
-.group_14 h3 {
+.group_14 h2 {
     width: 66px;
     height: 25px;
-    margin-left: 125px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    margin-left: 127px;
     margin-bottom: 34px;
     color: #fff;
 }
@@ -208,46 +220,49 @@ body {
     margin-bottom: 60px;
 }
 
-.group_contener_2_img{
+.group_contener_2 img{
+    width: 1150px;
+    height: 270px;
     margin-bottom: 15px;
 }
 
-.group_contener_2_p {
-    font-family: 'Manrope';
+.group_contener_2 h3 {
+    width: 661px;
+    height: 41px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    width: 661px;
-    height: 41px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+.group_contener_2:nth-last-child(1) {
+    margin-bottom: 150px;
 }
 
 .group_15 {
     width: 1400px;
     height: 717px;
+    position: relative;
     background-image: url(../resourses/group_15/Rectangle\ 10.png);
-    padding-top: 575px;
     margin-bottom: 150px;
-}
-
-.group_15_img {
-    
 }
 
 .group_15 p {
     width: 443px;
     height: 82px;
+    position: absolute;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
-    margin-left: 125px;
+    left: 125px;
+    bottom: 60px;
     
 }
 
-.phone_img {
+.phone-image img {
     width: 24px;
     height: 24px;
     margin-left: 120px;
@@ -257,31 +272,40 @@ body {
 .group_16 {
     width: 475px;
     height: 217px;
-    margin-left: 125px;
+    margin-left: 122px;
     margin-bottom: 150px;
     
 }
 
 .group_16 h4 {
+    width: 90px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 32px;
 }
 
-.group_16_p {
+.group_16 p {
     width: 472px;
     height: 60px;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-.group_16_mail {
+.group_16 a {
     width: 412px;
     height: 60px;
+    display: block;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    text-decoration: none;
+    color: #121212;
+    opacity: 0.5;
     letter-spacing: -0.03em;
     
 }
@@ -290,4 +314,13 @@ body {
     width: 1400px;
     height: 229px;
     background-color: #121212;
+}
+
+.group_17 p {
+    width: 60%;
+    height: 10%;
+    font-size: 30px;
+    color: greenyellow;
+    margin: auto;
+    text-align: center;
 }
