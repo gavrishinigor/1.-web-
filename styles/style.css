@@ -4,7 +4,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     width: 1400px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0 auto;
     background: #FFFFFF;
 }
@@ -212,20 +212,20 @@ body {
     color: #fff;
 }
 
-.group_contener_2 {
+.group_contener_services {
     width: 1150px;
     height: 326px;
     margin-left: 125px;
     margin-bottom: 60px;
 }
 
-.group_contener_2 img{
+.group_contener_services img{
     width: 1150px;
     height: 270px;
     margin-bottom: 15px;
 }
 
-.group_contener_2 h3 {
+.group_contener_services h3 {
     width: 661px;
     height: 41px;
     font-weight: 400;
@@ -235,7 +235,7 @@ body {
     color: #FFFFFF;
 }
 
-.group_contener_2:nth-last-child(1) {
+.group_contener_services:nth-last-child(1) {
     margin-bottom: 150px;
 }
 
