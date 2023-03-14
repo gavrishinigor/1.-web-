@@ -107,7 +107,8 @@ body {
 
 }
 
-.btn_1 {
+.about_us button {
+    font-family: 'Manrope', sans-serif;
     width: 255px;
     height: 67px;
     cursor: pointer;
