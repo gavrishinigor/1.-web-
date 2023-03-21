@@ -260,6 +260,9 @@ body {
     height: 717px;
     position: relative;
     background-image: url(../resourses/group_15/Rectangle\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     margin: 0 auto;
     margin-bottom: 150px;
 }
