@@ -1,10 +1,14 @@
 /* font-family: 'Manrope', sans-serif;
   */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
-    /* box-sizing: border-box; */
+    min-width: 1400px;
     margin: 0 auto;
     background: #FFFFFF;
 }
@@ -15,12 +19,13 @@ body {
     margin-top: 33px;
     margin-left: 125px;
     margin-bottom: 70px;
-    display: flex;
+    display: inline-flex;
 }
 
 .logo__menu-header {
     width: 127px;
     height: 22px;
+    display: block;
     background-image: cover;
     margin-right: 548px;
 }
@@ -44,6 +49,7 @@ body {
 }
 
 .item:hover {
+    text-decoration: underline;
     opacity: 0.5;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -331,9 +337,13 @@ body {
     line-height: 60px;
     text-decoration: none;
     color: #121212;
-    opacity: 0.5;
-    letter-spacing: -0.03em;
     
+    letter-spacing: -0.03em; 
+}
+
+.mail__contacts:hover {
+    opacity: 0.5;
+    border-bottom: #121212 solid 2px;
 }
 
 /* footer */
