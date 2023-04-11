@@ -4,8 +4,14 @@
 .body,html {
     min-width: 1400px;
     scroll-behavior: smooth;
-    font-family: 'Manrope', sans-serif;
     background: #FFFFFF;
+}
+
+h1, h2, h3, h4 ,h5, h6, p, a {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    text-decoration: none;
 }
 
 .header {
@@ -13,18 +19,19 @@
     margin: 0 auto;
 }
 
-.nav-header {
+.header__nav {
     width: 1151px;
     height: 25px;
-    margin-top: 32px;
-    margin-bottom: 70px;
-    margin-left: 125px;
+    margin-top: 29px;
+    margin-bottom: 73px;
+    margin-left: 124px;
     display: inline-block;
 }
 
-.nav-header__logo {
+.header img {
     width: 127px;
     height: 22px;
+    margin-top: 2px;
     background-image: cover;
 }
 
@@ -32,25 +39,24 @@
     width: 86px;
     height: 25px;
     cursor: pointer;
-    text-decoration: none;
     color: #121212;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;  
-    letter-spacing: -0.03em;
 }
 
 
 .item-aboutus {
     margin-left: 555px;
+    margin-top: 2px;
 }
 
 .item-projects {
-    margin-left: 58px;
+    margin-left: 57px;
 }
 
 .item-services {
-    margin-left: 57px;
+    margin-left: 56px;
 }
 
 .item-contacts {
@@ -78,14 +84,13 @@
     margin-bottom: 150px;
 }
 
-.presentation__title {
+h1 {
     width: 956px;
     height: 120px;
     margin-bottom: 30px;
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
-    letter-spacing: -0.03em;
 }
 
 .presentation__image {
@@ -94,7 +99,7 @@
     background-image: url('../resourses/group_11/Rectangle 1.jpg');
 }
 
-.presentation__text {
+.presentation p {
     width: 430px;
     height: 81px;
     position: absolute;
@@ -103,7 +108,6 @@
     color: #FFFFFF;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
 }
 
 /* about-us */
@@ -113,41 +117,38 @@
     margin: 0 auto;
 }
 
-.aboutus-container {
+.aboutus__container {
     width: 1051px;
     height: 518px;
     margin-left: 125px;
     margin-bottom: 150px;
 }
 
-.aboutus__title {
+.aboutus h2 {
     width: 51px;
     height: 25px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
 
-.aboutus__text {
+.aboutus p {
     width: 1048px;
     height: 366px;
-    font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 
 }
 
 .aboutus__btn {
-    font-family: 'Manrope', sans-serif;
     width: 255px;
     height: 67px;
     cursor: pointer;
     color: white;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
     line-height: 27.32px;
     background-color: #AD1818;
@@ -163,53 +164,49 @@
     margin: 0 auto;
 }
 
-.projects-container {
+.projects__container {
     width: 1150px;
     height: 2122px;
     margin-left: 125px;
     margin-bottom: 150px;
 }
 
-.projects__title {
+.projects h2 {
     width: 79px;
     height: 25px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
 
-.projects__container {
+.projects__block {
     width: 1150px;
     height: 548px;
     margin-bottom: 90px;
 }
 
-.projects-container img {
+.projects__block img {
     width: 1150px;
     height: 450px;
 }
 
-.projects__description {
+.projects h3 {
     width: 542px;
     height: 41px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     margin-top: 13px;
     margin-bottom: 15px;
 }
 
-.projects__details {
+.block__details {
     width: 127px;
     height: 27px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
     cursor: pointer;
     color: #AD1818;
 }
@@ -218,20 +215,18 @@
     width: 100%;
     height: 153px;
     padding-top: 56px;
+    text-align: center;
     cursor: pointer;
     color: #AD1818;
-    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     line-height: 41px;
-    text-decoration: none;
     background-color: #FFFFFF;
     display: block;
-    text-align: center;
     border: 1px solid #AD1818;  
     border-radius: 5px;
-    letter-spacing: -0.03em;
     
 }
+
 
 .projects__btn:hover {
     background-color: #AD1818;
@@ -243,7 +238,6 @@
 .services {
     width: 100%;
     height: 1844px;
-    display: block;
     background-color: #121212;
     background-size: cover;
     padding-top: 151px;
@@ -260,7 +254,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     margin-left: 127px;
     margin-bottom: 34px;
     color: #fff;
@@ -285,7 +278,6 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
     margin-left: 5px;
 }
@@ -320,7 +312,6 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     left: 125px;
     bottom: 60px;
     
@@ -362,7 +353,6 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 32px;
-    letter-spacing: -0.03em;
 }
 
 .contacts__number {
@@ -388,7 +378,6 @@
     line-height: 60px;
     text-decoration: none;
     color: #121212;   
-    letter-spacing: -0.03em; 
 }
 
 .contacts__mail:hover {
@@ -424,7 +413,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
 }
 
 .item-black:hover {
@@ -433,7 +421,7 @@
 }
 
 .item-black-aboutus {
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
 .item-black-projects {
@@ -441,7 +429,7 @@
 }
 
 .item-black-servises {
-    margin-right: 52px;
+    margin-right: 51px;
 }
 
 .item-black-contacts {
@@ -452,7 +440,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     display: block;
     color: #FFFFFF;
     opacity: 0.5;
